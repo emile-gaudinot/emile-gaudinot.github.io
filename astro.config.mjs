@@ -8,5 +8,5 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   site: 'https://emile-gaudinot.github.io',
-  base: '/portfolio',
+  base: 'portfolio',
 });
