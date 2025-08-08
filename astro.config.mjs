@@ -7,4 +7,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  site: 'https://emile-gaudinot.github.io',
+  // base: '/portfolio',
 });
