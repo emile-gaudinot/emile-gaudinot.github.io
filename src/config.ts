@@ -10,65 +10,66 @@ export const siteConfig = {
     github: "https://github.com/emile-gaudinot",
   },
   aboutMe:
-    "I am currently enrolled in a dual-degree program at the Technical University of Berlin, where I am pursuing a Master's in Computer Science and Machine Learning, and at École Centrale de Nantes, where I obtained an Engineering Diploma. Alongside my academic pursuits, I have gained valuable experience working part-time as a Machine Learning Engineer for the past two years. I am seeking a position as a Machine Learning Engineer, starting in October.",
+    "I am currently enrolled in a dual-degree program at the Technical University of Berlin, in a Master's in Computer Science and Machine Learning, and at École Centrale de Nantes, where I obtained an Engineering Diploma. Alongside my academic pursuits, I have gained valuable experience working part-time as a Machine Learning Engineer for the past two years. I am seeking a position as a Machine Learning Engineer, starting in October.",
   skills: ["Python", "scikit-learn", "PyTorch", "MLflow", "R", "SQL"],
   projects: [
     {
-      name: "ML4MIP",
+      name: "Machine Learning for Medical Image Processing",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevndup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Segmentation of coronary arteries from 800 CTA images of the heart, in 3D. Extraction of a graph from the arteries, to automate early detection of Coronary Artery Disease. The whole standardized Deep Learning pipeline we developed was deployed to production. Models tested: U-Net, nnU-Net, UNETR, MedSAM. Best Dice-score of 0.77.",
+      img: "segm-graph.png",
+      link: "https://github.com/emile-gaudinot/ML4MIP",
+      skills: ["PyTorch", "MLflow", "MONAI", "nvidia-smi"],
     },
-    {
-      name: "MT",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "SmartLab",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Local LLM",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "MNE-Python",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "DJ website",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "PROENC",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "P2E",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+    // {
+    //   name: "MT",
+    //   description:
+    //     "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+    //   link: "https://fullstackextensions.com/?ref=devportfolio",
+    //   skills: ["React", "Node.js", "AWS"],
+    // },
+    // {
+    //   name: "SmartLab",
+    //   description:
+    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+    //   link: "https://extensionkit.io/?ref=devportfolio",
+    //   skills: ["React", "Node.js", "AWS"],
+    // },
+    // {
+    //   name: "Local LLM",
+    //   description:
+    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+    //   link: "https://extensionkit.io/?ref=devportfolio",
+    //   skills: ["React", "Node.js", "AWS"],
+    // },
+    // {
+    //   name: "MNE-Python",
+    //   description:
+    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+    //   link: "https://extensionkit.io/?ref=devportfolio",
+    //   skills: ["React", "Node.js", "AWS"],
+    // },
+    // {
+    //   name: "DJ website",
+    //   description:
+    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+    //   link: "https://extensionkit.io/?ref=devportfolio",
+    //   skills: ["React", "Node.js", "AWS"],
+    // },
+    // {
+    //   name: "PROENC",
+    //   description:
+    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+    //   link: "https://extensionkit.io/?ref=devportfolio",
+    //   skills: ["React", "Node.js", "AWS"],
+    // },
+    // {
+    //   name: "P2E",
+    //   description:
+    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+    //   link: "https://extensionkit.io/?ref=devportfolio",
+    //   skills: ["React", "Node.js", "AWS"],
+    // },
   ],
   experience: [
     {
