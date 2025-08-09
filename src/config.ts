@@ -10,25 +10,60 @@ export const siteConfig = {
     github: "https://github.com/emile-gaudinot",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am currently enrolled in a dual-degree program at the Technical University of Berlin, where I am pursuing a Master's in Computer Science and Machine Learning, and at École Centrale de Nantes, where I obtained an Engineering Diploma. Alongside my academic pursuits, I have gained valuable experience working part-time as a Machine Learning Engineer for the past two years. I am seeking a position as a Machine Learning Engineer, starting in October.",
+  skills: ["Python", "scikit-learn", "PyTorch", "MLflow", "R", "SQL"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "ML4MIP",
       description:
         "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
+      link: "https://aidevndup.com/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "MT",
       description:
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
       link: "https://fullstackextensions.com/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
     },
     {
-      name: "ExtensionKit",
+      name: "SmartLab",
+      description:
+        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+    {
+      name: "Local LLM",
+      description:
+        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+    {
+      name: "MNE-Python",
+      description:
+        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+    {
+      name: "DJ website",
+      description:
+        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+    {
+      name: "PROENC",
+      description:
+        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+    {
+      name: "P2E",
       description:
         "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
       link: "https://extensionkit.io/?ref=devportfolio",
@@ -37,55 +72,86 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Fraunhofer Heinrich-Hertz-Institute, Berlin",
+      title: "Machine Learning Engineer",
+      dateRange: "March 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Led the development of the ML pipeline for EEG analysis, team of 5",
+        "Maintained high code quality and high standards of software development",
+        "Master's thesis \"Machine Learning for neurophysiological assessment of proximity in a virtual environment\"",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Charité, Berlin",
+      title: "Machine Learning Engineer",
+      dateRange: "March 2024 - March 2025",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Automated DL approach to enable early detection of Coronary Artery Disease",
+        "Coronary artery segmentation on 800 3D images (CTA) of the heart + graph extraction",
+        "Tried U-Net, nnU-Net, UNETR, MedSAM. Best Dice-score with U-Net: 0.77",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "BIFOLD, Berlin",
+      title: "Data Scientist - internship",
+      dateRange: "September 2023 - February 2024",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Design and implementation of proof-of-concept ML models, to solve cybersecurity problems",
+        "Training and fine-tunning of the models",
+        "Adversarial Machine Learning Defense, Malware Clustering, Network Intrusion Detection, etc",
+      ],
+    },
+    {
+      company: "Solypse, Paris",
+      title: "Cybersecurity Engineer",
+      dateRange: "September 2022 - March 2023",
+      bullets: [
+        "Production of cybersecurity reports, using OWASP ZAP",
+        "Development of Angular HR apps",
+        "Organisation in agile sprints",
+      ]
+    },
+    {
+      company: "European Bioinformatics Institute (EMBL-EBI), Cambridge",
+      title: "Data Engineer - internship",
+      dateRange: "April 2022 - August 2022",
+      bullets: [
+        "Led the migration of the 7GB database (gene essentiality data) to PostgreSQL",
+        "Development of an R Shiny app, to visualize the database",
+        "Improvement of the request system, 70% faster",
+        "App freely available http://cen-tools.com",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Technical University of Berlin",
+      degree: "Computer Science M.Sc.",
+      dateRange: "2023-2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Graduated with 3.97 GPA",
+        "Mathematical theory behind ML models and architectures",
+        "Hands-on implementation of ML and DL models (scikit-learn, PyTorch)",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Ecole Centrale de Nantes",
+      degree: "Engineering Degree",
+      dateRange: "2020-2022",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Graduated with 3.81 GPA",
+        "Specialized in Bioinformatics and Database Management Systems",
+        "Highly involved in the associative life (Rugby, Brass Band)",
+      ],
+    },
+    {
+      school: "Lycée Hoche, Versailles",
+      degree: "CPGE MPSI/MP",
+      dateRange: "2018-2020",
+      achievements: [
+        "Graduated with 4.0 GPA",
+        "Intensive preparation for Engineering Schools competitive exams",
+        "Maths (linear algebra, analysis, etc), Computer Science (graphs, automata, etc), Physics",
       ],
     },
   ],
