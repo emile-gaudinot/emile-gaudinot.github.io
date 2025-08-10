@@ -28,13 +28,18 @@ export const siteConfig = {
     //   link: "https://fullstackextensions.com/?ref=devportfolio",
     //   skills: ["React", "Node.js", "AWS"],
     // },
-    // {
-    //   name: "SmartLab",
-    //   description:
-    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-    //   link: "https://extensionkit.io/?ref=devportfolio",
-    //   skills: ["React", "Node.js", "AWS"],
-    // },
+    {
+      name: "Smart Cybersecurity",
+      description:
+        `Implementation, training and fine-tunning of various proof-of-concept machine learning models to
+         addressed cybersecurity challenges: adversarial attacks and defenses, 
+         network intrusion detection, malware detection in documents, etc.
+         Models used: SVM, Random Forests, Gradient Boosting, or even Local Outlier Factor. 
+         Feature extraction with Bag-of-words and PCA.`,
+      img: "adv-attacks.png",
+      link: "https://github.com/emile-gaudinot/smart-cybersecurity-project",
+      skills: ["scikit-learn", "PyTorch", "Wireshark"],
+    },
     // {
     //   name: "Local LLM",
     //   description:
