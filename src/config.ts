@@ -62,12 +62,20 @@ export const siteConfig = {
     //   skills: ["React", "Node.js", "AWS"],
     // },
     // {
-    //   name: "PROENC",
+    //   name: "Memory card - german/french",
     //   description:
     //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
     //   link: "https://extensionkit.io/?ref=devportfolio",
     //   skills: ["React", "Node.js", "AWS"],
     // },
+    {
+      name: "3D Geodesic Meshes of the Heart",
+      description:
+        "This project bridges computational geometry and cardiac research. It provides with a robust method to generate 3D geodesic meshes of heart valves, to study their deformations. This is critical for advancing our understanding of pathologies like Mitral Valve Prolapse (~3% of the population).",
+      img: "meshes.png",
+      link: "https://github.com/emile-gaudinot/geodesic-meshes",
+      skills: ["Python", "Gmsh", "pygeodesic"],
+    },
     // {
     //   name: "P2E",
     //   description:
