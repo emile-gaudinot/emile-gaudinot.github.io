@@ -47,13 +47,14 @@ export const siteConfig = {
     //   link: "https://extensionkit.io/?ref=devportfolio",
     //   skills: ["React", "Node.js", "AWS"],
     // },
-    // {
-    //   name: "MNE-Python",
-    //   description:
-    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-    //   link: "https://extensionkit.io/?ref=devportfolio",
-    //   skills: ["React", "Node.js", "AWS"],
-    // },
+    {
+      name: "MNE-Python Contributor",
+      description:
+        "Direct collaboration with the core team of MNE-Python, a Python package for EEG and MEG analysis. Expanded the SPoC (Dähne et al., 2014) and SSD (Nikulin et al., 2011) functions. Contributions merged via pull requests, strengthening this open-source neuroscience tool.",
+      img: "spoc-patterns.png",
+      link: "https://github.com/emile-gaudinot/mne-python",
+      skills: ["Python", "MNE", "GitHub"],
+    },
     // {
     //   name: "DJ website",
     //   description:
