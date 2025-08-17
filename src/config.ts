@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/emile-gaudinot",
   },
   aboutMe:
-    `I am currently enrolled in a dual-degree program: at the Technical University of Berlin 
+    `I am currently enrolled in a dual-degree program at the Technical University of Berlin 
     (Master's in Computer Science) and at École Centrale de Nantes 
     (Engineering Diploma). Alongside my academic pursuits, I have gained valuable 
     experience working part-time as a Machine Learning Engineer for the past two years.`,
@@ -34,7 +34,7 @@ export const siteConfig = {
     {
       name: "Smart Cybersecurity Hackathon",
       description:
-        `Winner among 24 competitors! Implementation, training and fine-tunning of various proof-of-concept 
+        `Winner among 24 competitors! Implementation, training, and fine-tuning of various proof-of-concept 
          ML models to tackle cybersecurity challenges: adversarial attacks/defenses, 
          network intrusion detection, malware detection in documents, etc.
          Models leveraged: SVM, Random Forests, Gradient Boosting, 
@@ -75,7 +75,7 @@ export const siteConfig = {
     {
       name: "3D Geodesic Meshes of the Heart",
       description:
-        "This project bridges computational geometry and cardiac research. It provides with a robust method to generate 3D geodesic meshes of heart valves, to study their deformations. This is critical for advancing our understanding of pathologies like Mitral Valve Prolapse (~3% of the population).",
+        "This project bridges computational geometry and cardiac research. It provides a robust method to generate 3D geodesic meshes of heart valves, to study their deformations. This is critical for advancing our understanding of pathologies like Mitral Valve Prolapse (~3% of the population).",
       img: "meshes.png",
       link: "https://github.com/emile-gaudinot/geodesic-meshes",
       skills: ["Python", "Gmsh", "pygeodesic"],
@@ -111,11 +111,11 @@ export const siteConfig = {
     },
     {
       company: "BIFOLD, Berlin",
-      title: "Data Scientist - internship",
+      title: "Data Scientist - Internship",
       dateRange: "September 2023 - February 2024",
       bullets: [
-        "Design and implementation of proof-of-concept ML models, to solve cybersecurity problems",
-        "Training and fine-tunning of the models",
+        "Design and implementation of proof-of-concept ML models to solve cybersecurity problems",
+        "Training and fine-tuning of the models",
         "Adversarial Machine Learning Defense, Malware Clustering, Network Intrusion Detection, etc",
       ],
     },
@@ -124,18 +124,18 @@ export const siteConfig = {
       title: "Cybersecurity Engineer",
       dateRange: "September 2022 - March 2023",
       bullets: [
-        "Production of cybersecurity reports, using OWASP ZAP",
+        "Production of cybersecurity reports using OWASP ZAP",
         "Development of Angular HR apps",
-        "Organisation in agile sprints",
+        "Organization in agile sprints",
       ]
     },
     {
       company: "European Bioinformatics Institute (EMBL-EBI), Cambridge",
-      title: "Data Engineer - internship",
+      title: "Data Engineer - Internship",
       dateRange: "April 2022 - August 2022",
       bullets: [
         "Led the migration of the 7GB database (gene essentiality data) to PostgreSQL",
-        "Development of an R Shiny app, to visualize the database",
+        "Development of an R Shiny app to visualize the database",
         "Improvement of the request system, 70% faster",
         "App freely available http://cen-tools.com",
       ],
