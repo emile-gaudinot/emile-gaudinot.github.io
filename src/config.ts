@@ -32,13 +32,13 @@ export const siteConfig = {
     //   skills: ["React", "Node.js", "AWS"],
     // },
     {
-      name: "Smart Cybersecurity",
+      name: "Smart Cybersecurity Hackathon",
       description:
-        `Implementation, training and fine-tunning of various proof-of-concept machine learning models to
-         addressed cybersecurity challenges: adversarial attacks and defenses, 
+        `Winner among 24 competitors! Implementation, training and fine-tunning of various proof-of-concept 
+         ML models to tackle cybersecurity challenges: adversarial attacks/defenses, 
          network intrusion detection, malware detection in documents, etc.
-         Models used: SVM, Random Forests, Gradient Boosting, or even Local Outlier Factor. 
-         Feature extraction with Bag-of-words and PCA.`,
+         Models leveraged: SVM, Random Forests, Gradient Boosting, 
+         LOF. Feature extraction: Bag-of-Words and PCA.`,
       img: "adv-attacks.png",
       link: "https://github.com/emile-gaudinot/smart-cybersecurity-project",
       skills: ["scikit-learn", "PyTorch", "Wireshark"],
@@ -81,7 +81,7 @@ export const siteConfig = {
       skills: ["Python", "Gmsh", "pygeodesic"],
     },
     // {
-    //   name: "P2E",
+    //   name: "P2E?",
     //   description:
     //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
     //   link: "https://extensionkit.io/?ref=devportfolio",
