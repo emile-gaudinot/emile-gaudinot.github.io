@@ -10,7 +10,10 @@ export const siteConfig = {
     github: "https://github.com/emile-gaudinot",
   },
   aboutMe:
-    "I am currently enrolled in a dual-degree program at the Technical University of Berlin, in a Master's in Computer Science and Machine Learning, and at École Centrale de Nantes, where I obtained an Engineering Diploma. Alongside my academic pursuits, I have gained valuable experience working part-time as a Machine Learning Engineer for the past two years. I am seeking a position as a Machine Learning Engineer, starting in October.",
+    `I am currently enrolled in a dual-degree program: at the Technical University of Berlin 
+    (Master's in Computer Science) and at École Centrale de Nantes 
+    (Engineering Diploma). Alongside my academic pursuits, I have gained valuable 
+    experience working part-time as a Machine Learning Engineer for the past two years.`,
   skills: ["Python", "scikit-learn", "PyTorch", "MLflow", "R", "SQL"],
   projects: [
     {
