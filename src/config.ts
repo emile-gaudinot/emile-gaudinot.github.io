@@ -157,7 +157,7 @@ export const siteConfig = {
       degree: "Engineering Degree",
       dateRange: "2020-2022",
       achievements: [
-        "Graduated with 3.81 GPA",
+        "Graduated with 3.95 GPA",
         "Specialized in Bioinformatics and Database Management Systems",
         "Highly involved in the associative life (Rugby, Brass Band)",
       ],
