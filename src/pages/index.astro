@@ -16,7 +16,14 @@ import "../styles/global.css";
     <link rel="icon" type="image/ico" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="description" content={siteConfig.description} />
+    <meta name="description" property="og:description" content={siteConfig.description} />
+    <!-- For linkedin -->
+    <meta name="title" property="og:title" content="Emile Gaudinot - Portfolio">
+    <meta property="og:type" content="Portfolio website">
+    <meta name="image" property="og:image" content="favicon.ico">
+    <meta name="author" content="Emile Gaudinot">
+    <meta property='og:url' content='//www.emile-gaudinot.github.io'/>
+    <!--  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
