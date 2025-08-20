@@ -10,10 +10,10 @@ export const siteConfig = {
     github: "https://github.com/emile-gaudinot",
   },
   aboutMe:
-    `I am currently enrolled in a dual-degree program at the Technical University of Berlin 
-    (Master's in Computer Science) and at École Centrale de Nantes 
-    (Engineering Diploma). Alongside my academic pursuits, I have gained valuable 
-    experience working part-time as a Machine Learning Engineer for the past two years.`,
+    `Passionate about building impactful machine learning models, I am fascinated by the fields of 
+    medicine - especially brain research - and cybersecurity. As a Machine Learning Engineer with 
+    two years of experience and a dual degree in Engineering and Computer Science, I thrive at the 
+    intersection of innovation and real-world problem-solving.`,
   skills: ["Python", "scikit-learn", "PyTorch", "MLflow", "R", "SQL"],
   projects: [
     {
