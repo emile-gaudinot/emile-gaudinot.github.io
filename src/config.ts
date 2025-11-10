@@ -101,7 +101,7 @@ export const siteConfig = {
     },
     {
       company: "Charité, Berlin",
-      title: "Machine Learning Engineer",
+      title: "Data Scientist",
       dateRange: "March 2024 - March 2025",
       bullets: [
         "Automated DL approach to enable early detection of Coronary Artery Disease",
