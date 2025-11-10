@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Emile Gaudinot",
-  title: "Machine Learning Engineer",
+  title: "Data Scientist & Machine Learning Engineer",
   description: "Portfolio website of Emile Gaudinot",
   accentColor: "#55019eff",
   social: {
