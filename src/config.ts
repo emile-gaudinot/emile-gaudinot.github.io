@@ -27,7 +27,7 @@ export const siteConfig = {
     {
       name: "Publication - Master's thesis",
       description:
-        "Machine learning for neurophysiological assessment of proximity in a virtual environment. Development a ML pipeline to predict distances in VR, relying on brain signals. Correlation of 0.45 (twice better than SOTA). Accuracy of 66% for classification proximity/distance.",
+        "Machine learning for neurophysiological assessment of proximity in a virtual environment. Development of a ML pipeline to predict distances in VR, relying on brain signals. Correlation of 0.45 (twice better than SOTA). Accuracy of 66% for classification proximity/distance.",
       img: "masters-thesis-dist-pred.png",
       link: "masters-thesis-emile-gaudinot.pdf",
       skills: ["MNE-Python", "scikit-learn", "Google Scholar"],
@@ -35,7 +35,7 @@ export const siteConfig = {
     {
       name: "Smart Cybersecurity Hackathon",
       description:
-        `Winner among 24 competitors! Training of various ML models (SVM, RF, GB, etc) to tackle cybersecurity challenges: adversarial attacks/ defenses, network intrusion detection, malware detection in documents, etc. Feature extraction with Bag-of-Words and PCA.`,
+        `Winner among 24 competitors! Training of various ML models (SVM, RF, GB, etc) to tackle cybersecurity challenges: adversarial attacks/ defences, network intrusion detection, malware detection in documents, etc. Feature extraction with Bag-of-Words and PCA.`,
       img: "adv-attacks.png",
       link: "https://github.com/emile-gaudinot/smart-cybersecurity-project",
       skills: ["scikit-learn", "PyTorch", "Wireshark"],
