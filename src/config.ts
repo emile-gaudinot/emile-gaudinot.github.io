@@ -19,26 +19,23 @@ export const siteConfig = {
     {
       name: "Machine Learning for Medical Image Processing",
       description:
-        "Segmentation of coronary arteries from 800 CTA images of the heart, in 3D. Extraction of a graph from the arteries, to automate early detection of Coronary Artery Disease. The whole standardized Deep Learning pipeline we developed was deployed to production. Models tested: U-Net, nnU-Net, UNETR, MedSAM. Best Dice-score of 0.77.",
+        "Segmentation of coronary arteries from 800 CTA images, in 3D. Extraction of a graph from the arteries, to automate early detection of Coronary Artery Disease. The whole standardized Deep Learning pipeline (U-Net) was deployed to production. Dice-score of 0.77.",
       img: "segm-graph.png",
       link: "https://github.com/emile-gaudinot/ML4MIP",
       skills: ["PyTorch", "MLflow", "MONAI", "nvidia-smi"],
     },
-    // {
-    //   name: "MT",
-    //   description:
-    //     "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-    //   link: "https://fullstackextensions.com/?ref=devportfolio",
-    //   skills: ["React", "Node.js", "AWS"],
-    // },
+    {
+      name: "Publication - Master's thesis",
+      description:
+        "Machine learning for neurophysiological assessment of proximity in a virtual environment. Development a ML pipeline to predict distances in VR, relying on brain signals. Correlation of 0.45 (twice better than SOTA). Accuracy of 66% for classification proximity/distance.",
+      img: "masters-thesis-dist-pred.png",
+      link: "masters-thesis-emile-gaudinot.pdf",
+      skills: ["MNE-Python", "scikit-learn", "Google Scholar"],
+    },
     {
       name: "Smart Cybersecurity Hackathon",
       description:
-        `Winner among 24 competitors! Implementation, training, and fine-tuning of various proof-of-concept 
-         ML models to tackle cybersecurity challenges: adversarial attacks/defenses, 
-         network intrusion detection, malware detection in documents, etc.
-         Models leveraged: SVM, Random Forests, Gradient Boosting, 
-         LOF. Feature extraction: Bag-of-Words and PCA.`,
+        `Winner among 24 competitors! Training of various ML models (SVM, RF, GB, etc) to tackle cybersecurity challenges: adversarial attacks/ defenses, network intrusion detection, malware detection in documents, etc. Feature extraction with Bag-of-Words and PCA.`,
       img: "adv-attacks.png",
       link: "https://github.com/emile-gaudinot/smart-cybersecurity-project",
       skills: ["scikit-learn", "PyTorch", "Wireshark"],
@@ -75,18 +72,11 @@ export const siteConfig = {
     {
       name: "3D Geodesic Meshes of the Heart",
       description:
-        "This project bridges computational geometry and cardiac research. It provides a robust method to generate 3D geodesic meshes of heart valves, to study their deformations. This is critical for advancing our understanding of pathologies like Mitral Valve Prolapse (~3% of the population).",
+        "This project provides a robust method to generate 3D geodesic meshes of heart valves, to study their deformations. This is critical for advancing our understanding of pathologies like Mitral Valve Prolapse (~3% of the population).",
       img: "meshes.png",
       link: "https://github.com/emile-gaudinot/geodesic-meshes",
       skills: ["Python", "Gmsh", "pygeodesic"],
     },
-    // {
-    //   name: "P2E?",
-    //   description:
-    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-    //   link: "https://extensionkit.io/?ref=devportfolio",
-    //   skills: ["React", "Node.js", "AWS"],
-    // },
   ],
   experience: [
     {
