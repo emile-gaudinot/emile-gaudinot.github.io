@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Astro-5.12.3-purple)](https://astro.build/)
 [![Deployed](https://img.shields.io/badge/Deployment-running-green)](#)
 
-This is my **personal portfolio website**, designed to provide a comprehensive overview of my professional journey. 
+This is my **[personal portfolio website](https://emile-gaudinot.github.io/)**, designed to provide a comprehensive overview of my professional journey. 
 Here, you’ll find:
 - The **projects** I’ve contributed to, 
 - My **experiences**,
