@@ -4,6 +4,10 @@
 [![Python](https://img.shields.io/badge/Astro-5.12.3-purple)](https://astro.build/)
 [![Deployed](https://img.shields.io/badge/Deployment-running-green)](#)
 
+<a href="https://emile-gaudinot.github.io/">
+    <img width="1881" height="874" alt="image" src="https://github.com/user-attachments/assets/5fffafa4-ecac-4277-bc25-ebe4241b2880" />
+</a>
+
 This is my **[personal portfolio website](https://emile-gaudinot.github.io/)**, designed to provide a comprehensive overview of my professional journey. 
 Here, you’ll find:
 - The **projects** I’ve contributed to, 
