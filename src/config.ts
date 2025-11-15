@@ -33,6 +33,14 @@ export const siteConfig = {
       skills: ["MNE-Python", "scikit-learn", "Google Scholar"],
     },
     {
+      name: "Local LLM",
+      description:
+        "Complete application to run open-source LLMs locally using Ollama, with a user-friendly web interface. It works perfectly on your own local machine, with lightweight models you can choose.",
+      img: "local-llm.png",
+      link: "https://github.com/emile-gaudinot/local-llm",
+      skills: ["Ollama", "LLMs", "JavaScript"],
+    },
+    {
       name: "Smart Cybersecurity Hackathon",
       description:
         `Winner among 24 competitors! Training of various ML models (SVM, RF, GB, etc) to tackle cybersecurity challenges: adversarial attacks/ defences, network intrusion detection, malware detection in documents, etc. Feature extraction with Bag-of-Words and PCA.`,
@@ -40,13 +48,6 @@ export const siteConfig = {
       link: "https://github.com/emile-gaudinot/smart-cybersecurity-project",
       skills: ["scikit-learn", "PyTorch", "Wireshark"],
     },
-    // {
-    //   name: "Local LLM",
-    //   description:
-    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-    //   link: "https://extensionkit.io/?ref=devportfolio",
-    //   skills: ["React", "Node.js", "AWS"],
-    // },
     {
       name: "MNE-Python Contributor",
       description:
