@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Emile Gaudinot",
-  title: "Data Scientist & Machine Learning Engineer",
+  title: "Data Scientist",
   description: "Portfolio website of Emile Gaudinot",
   accentColor: "#55019eff",
   social: {
@@ -29,7 +29,7 @@ export const siteConfig = {
       description:
         "Machine learning for neurophysiological assessment of proximity in a virtual environment. Development of a ML pipeline to predict distances in VR, relying on brain signals. Correlation of 0.45 (twice better than SOTA). Accuracy of 66% for classification proximity/distance.",
       img: "masters-thesis-dist-pred.png",
-      link: "masters-thesis-emile-gaudinot.pdf",
+      link: "ml-for-neurophysiological-assessment-of-proximity-in-a-vr-env.pdf",
       skills: ["MNE-Python", "scikit-learn", "Google Scholar"],
     },
     {
