@@ -25,7 +25,7 @@ export const siteConfig = {
       skills: ["PyTorch", "MLflow", "MONAI", "nvidia-smi"],
     },
     {
-      name: "Publication - Master's thesis",
+      name: "Publication",
       description:
         "Machine learning for neurophysiological assessment of proximity in a virtual environment. Development of a ML pipeline to predict distances in VR, relying on brain signals. Correlation of 0.45 (twice better than SOTA). Accuracy of 66% for classification proximity/distance.",
       img: "masters-thesis-dist-pred.png",
@@ -82,8 +82,8 @@ export const siteConfig = {
   experience: [
     {
       company: "Fraunhofer Heinrich-Hertz-Institute, Berlin",
-      title: "Machine Learning Engineer",
-      dateRange: "March 2025 - Present",
+      title: "Data Scientist",
+      dateRange: "March 2025 - November 2025",
       bullets: [
         "Led the development of the ML pipeline for EEG analysis, team of 5",
         "Maintained high code quality and high standards of software development",
@@ -135,10 +135,10 @@ export const siteConfig = {
   education: [
     {
       school: "Technical University of Berlin",
-      degree: "Computer Science M.Sc.",
-      dateRange: "2023-2025",
+      degree: "Applied Mathematics M.Sc.",
+      dateRange: "2023-2024",
       achievements: [
-        "Graduated with 3.97 GPA",
+        "Graduated with 4.0 GPA",
         "Mathematical theory behind ML models and architectures",
         "Hands-on implementation of ML and DL models (scikit-learn, PyTorch)",
       ],
@@ -146,9 +146,9 @@ export const siteConfig = {
     {
       school: "Ecole Centrale de Nantes",
       degree: "Engineering Degree",
-      dateRange: "2020-2022",
+      dateRange: "2020-2023",
       achievements: [
-        "Graduated with 3.95 GPA",
+        "Graduated with 4.0 GPA",
         "Specialized in Bioinformatics and Database Management Systems",
         "Highly involved in the associative life (Rugby, Brass Band)",
       ],
