@@ -97,7 +97,7 @@ export const siteConfig = {
       bullets: [
         "Automated DL approach to enable early detection of Coronary Artery Disease",
         "Coronary artery segmentation on 800 3D images (CTA) of the heart + graph extraction",
-        "Tried U-Net, nnU-Net, UNETR, MedSAM. Best Dice-score with U-Net: 0.77",
+        "Tested U-Net, nnU-Net, UNETR, MedSAM. Best Dice-score with U-Net: 0.77",
       ],
     },
     {
@@ -116,7 +116,7 @@ export const siteConfig = {
       dateRange: "September 2022 - March 2023",
       bullets: [
         "Production of cybersecurity reports using OWASP ZAP",
-        "Development of Angular HR apps",
+        "Development of Angular apps",
         "Organization in agile sprints",
       ]
     },
