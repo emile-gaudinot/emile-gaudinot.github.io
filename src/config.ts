@@ -8,6 +8,7 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/emile-gaudinot/",
     // twitter: "twitter.com",
     github: "https://github.com/emile-gaudinot",
+    cv: "cv-emile-gaudinot.pdf",
   },
   aboutMe:
     `Passionate about building impactful machine learning models, I am fascinated by the fields of 
