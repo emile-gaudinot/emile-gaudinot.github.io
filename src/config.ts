@@ -8,6 +8,7 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/emile-gaudinot/",
     // twitter: "twitter.com",
     github: "https://github.com/emile-gaudinot",
+    cv: "cv-emile-gaudinot.pdf",
   },
   aboutMe:
     `Passionate about building impactful machine learning models, I am fascinated by the fields of 
@@ -17,7 +18,7 @@ export const siteConfig = {
   skills: ["Python", "scikit-learn", "PyTorch", "MLflow", "R", "SQL"],
   projects: [
     {
-      name: "Machine Learning for Medical Image Processing",
+      name: "Deep Learning for Medical Image Processing",
       description:
         "Segmentation of coronary arteries from 800 CTA images, in 3D. Extraction of a graph from the arteries, to automate early detection of Coronary Artery Disease. The whole standardized Deep Learning pipeline (U-Net) was deployed to production. Dice-score of 0.77.",
       img: "segm-graph.png",
@@ -97,7 +98,7 @@ export const siteConfig = {
       bullets: [
         "Automated DL approach to enable early detection of Coronary Artery Disease",
         "Coronary artery segmentation on 800 3D images (CTA) of the heart + graph extraction",
-        "Tried U-Net, nnU-Net, UNETR, MedSAM. Best Dice-score with U-Net: 0.77",
+        "Tested U-Net, nnU-Net, UNETR, MedSAM. Best Dice-score with U-Net: 0.77",
       ],
     },
     {
@@ -116,7 +117,7 @@ export const siteConfig = {
       dateRange: "September 2022 - March 2023",
       bullets: [
         "Production of cybersecurity reports using OWASP ZAP",
-        "Development of Angular HR apps",
+        "Development of Angular apps",
         "Organization in agile sprints",
       ]
     },
