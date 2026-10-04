@@ -18,7 +18,7 @@ export const siteConfig = {
   skills: ["Python", "scikit-learn", "PyTorch", "MLflow", "R", "SQL"],
   projects: [
     {
-      name: "Machine Learning for Medical Image Processing",
+      name: "Deep Learning for Medical Image Processing",
       description:
         "Segmentation of coronary arteries from 800 CTA images, in 3D. Extraction of a graph from the arteries, to automate early detection of Coronary Artery Disease. The whole standardized Deep Learning pipeline (U-Net) was deployed to production. Dice-score of 0.77.",
       img: "segm-graph.png",
