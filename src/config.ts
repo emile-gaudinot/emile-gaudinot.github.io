@@ -82,6 +82,16 @@ export const siteConfig = {
   ],
   experience: [
     {
+      company: "Sia, Paris",
+      title: "Research Scientist & Machine Learning Engineer",
+      dateRange: "February 2026 - Present",
+      bullets: [
+        "Optimize critical operations on the Electricity Network using Reinforcement Learning (PPO) and a GNN. +500% speed vs. current solvers",
+        "World-Wide Medical Challenge: Automated the segmentation of bone fragments on pelvis fracture CT-scans (nnUNet). Top 100 world",
+        "Automated the blurring of alcohol and cigarettes on videos with YOLO26/RF-DETR models on AWS SageMaker. Agentic pipeline to generate a React dashboard",
+      ],
+    },
+    {
       company: "Fraunhofer Heinrich-Hertz-Institute, Berlin",
       title: "Data Scientist",
       dateRange: "March 2025 - November 2025",
