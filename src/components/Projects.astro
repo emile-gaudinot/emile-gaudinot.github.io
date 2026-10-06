@@ -21,45 +21,98 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
           <div class="lg:col-span-8">
             <div class="space-y-8">
               {siteConfig.projects.map((project, index) => {
-                const Component = project.link ? "a" : "div";
-                const linkProps = project.link
-                  ? {
-                      href: project.link,
-                      target: "_blank",
-                      rel: "noopener noreferrer",
-                    }
-                  : {};
+                const primaryHref = project.link ?? project.pdf;
+                const showPdfButton = Boolean(project.link && project.pdf);
+                const reserveRight = showPdfButton
+                  ? "pr-24 sm:pr-28 md:pr-32"
+                  : primaryHref
+                    ? "pr-12 sm:pr-14 md:pr-16"
+                    : "";
 
                 return (
                   <div class="group relative">
-                    <Component
-                      {...linkProps}
+                    <div
                       class={`block relative p-4 sm:p-6 md:p-8 bg-gray-50 dark:bg-gray-800/50 rounded-xl sm:rounded-2xl border border-gray-200 dark:border-gray-700 transition-all duration-300 ${
-                        project.link
+                        primaryHref
                           ? "hover:bg-white dark:hover:bg-gray-800 hover:shadow-xl hover:border-gray-300 dark:hover:border-gray-600 hover:-translate-y-1"
                           : ""
                       }`}
                     >
-                      {project.link && (
-                        <div class="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center bg-gray-900 dark:bg-gray-700 rounded-full text-white transition-all duration-300 group-hover:bg-gray-700 dark:group-hover:bg-gray-600">
+                      {primaryHref && (
+                        <a
+                          href={primaryHref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={project.name}
+                          class="absolute inset-0 rounded-xl sm:rounded-2xl"
+                        />
+                      )}
+                      {showPdfButton && (
+                        <a
+                          href={project.pdf}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`${project.name} (PDF report)`}
+                          class="absolute z-10 top-4 right-[4rem] sm:top-6 sm:right-[4.75rem] md:top-8 md:right-[5.5rem] w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center bg-gray-900 dark:bg-gray-700 rounded-full text-white transition-colors duration-300 hover:bg-gray-700 dark:hover:bg-gray-600"
+                        >
                           <svg
-                            class="w-4 h-4 sm:w-4.5 sm:h-4.5 md:w-5 md:h-5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-4 h-4 sm:w-4.5 sm:h-4.5 md:w-5 md:h-5"
+                            viewBox="0 0 24 24"
                             fill="none"
                             stroke="currentColor"
-                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
                           >
-                            <path
+                            <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                            <path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4" />
+                            <path d="M5 18h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6" />
+                            <path d="M17 18h2" />
+                            <path d="M20 15h-3v6" />
+                            <path d="M11 15v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" />
+                          </svg>
+                        </a>
+                      )}
+                      {primaryHref && (
+                        <div class="pointer-events-none absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center bg-gray-900 dark:bg-gray-700 rounded-full text-white transition-all duration-300 group-hover:bg-gray-700 dark:group-hover:bg-gray-600">
+                          {project.link ? (
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="w-4 h-4 sm:w-4.5 sm:h-4.5 md:w-5 md:h-5"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
                               stroke-linecap="round"
                               stroke-linejoin="round"
+                            >
+                              <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                            </svg>
+                          ) : (
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="w-4 h-4 sm:w-4.5 sm:h-4.5 md:w-5 md:h-5"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
                               stroke-width="2"
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                            />
-                          </svg>
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                              <path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4" />
+                              <path d="M5 18h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6" />
+                              <path d="M17 18h2" />
+                              <path d="M20 15h-3v6" />
+                              <path d="M11 15v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" />
+                            </svg>
+                          )}
                         </div>
                       )}
 
                       <div class="space-y-4">
-                        <div>
+                        <div class={reserveRight}>
                           <span
                             class="text-sm font-mono"
                             style={{ color: siteConfig.accentColor }}
@@ -72,7 +125,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                         </div>
 
                         <p
-                          class={`text-base sm:text-lg text-gray-600 dark:text-gray-300 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
+                          class={`text-base sm:text-lg text-gray-600 dark:text-gray-300 leading-relaxed ${reserveRight}`}
                         >
                           {project.description}
                         </p>
@@ -87,7 +140,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                             {project.skills.map((skill) => (
                               <span
                                 class={`px-2.5 sm:px-3 py-1 sm:py-1.5 bg-gray-900 dark:bg-gray-700 text-white rounded-md sm:rounded-lg text-xs sm:text-sm font-medium transition-all duration-300 ${
-                                  project.link ? "group-hover:bg-gray-800 dark:group-hover:bg-gray-600" : ""
+                                  primaryHref ? "group-hover:bg-gray-800 dark:group-hover:bg-gray-600" : ""
                                 }`}
                               >
                                 {skill}
@@ -96,7 +149,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                           </div>
                         )}
                       </div>
-                    </Component>
+                    </div>
                   </div>
                 );
               })}

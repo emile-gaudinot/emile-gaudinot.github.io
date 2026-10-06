@@ -23,6 +23,7 @@ export const siteConfig = {
         "Segmentation of coronary arteries from 800 CTA images, in 3D. Extraction of a graph from the arteries, to automate early detection of Coronary Artery Disease. The whole standardized Deep Learning pipeline (U-Net) was deployed to production. Dice-score of 0.77.",
       img: "segm-graph.png",
       link: "https://github.com/emile-gaudinot/ML4MIP",
+      pdf: "deep-learning-for-medical-image-processing.pdf",
       skills: ["PyTorch", "MLflow", "MONAI", "nvidia-smi"],
     },
     {
@@ -30,7 +31,7 @@ export const siteConfig = {
       description:
         "Machine learning for neurophysiological assessment of proximity in a virtual environment. Development of a ML pipeline to predict distances in VR, relying on brain signals. Correlation of 0.45 (twice better than SOTA). Accuracy of 66% for classification proximity/distance.",
       img: "masters-thesis-dist-pred.png",
-      link: "ml-for-neurophysiological-assessment-of-proximity-in-a-vr-env.pdf",
+      pdf: "ml-for-neurophysiological-assessment-of-proximity-in-a-vr-env.pdf",
       skills: ["MNE-Python", "scikit-learn", "Google Scholar"],
     },
     {
