@@ -5,9 +5,10 @@
 [![Deployed](https://img.shields.io/badge/Deployment-running-green)](#)
 
 <a href="https://emile-gaudinot.github.io/">
-    <img width="1881" height="874" alt="image" src="https://github.com/user-attachments/assets/5fffafa4-ecac-4277-bc25-ebe4241b2880" />
+    <img width="1871" height="951" alt="image" src="https://github.com/user-attachments/assets/97efb18f-6f1a-4a45-8bf7-548922bb593e" />
 </a>
 
+#
 This is my **[personal portfolio website](https://emile-gaudinot.github.io/)**, designed to provide a comprehensive overview of my professional journey. 
 Here, you’ll find:
 - The **projects** I’ve contributed to, 
