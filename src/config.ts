@@ -3,6 +3,7 @@ export const siteConfig = {
   title: "Research Scientist & Machine Learning Engineer",
   description: "Portfolio website of Emile Gaudinot",
   accentColor: "#55019eff",
+  accentColorDark: "#b066ff",
   social: {
     // email: 'example@domain.com',
     linkedin: "https://www.linkedin.com/in/emile-gaudinot/",
@@ -11,10 +12,11 @@ export const siteConfig = {
     cv: "cv-emile-gaudinot.pdf",
   },
   aboutMe:
-    `Passionate about building impactful machine learning models, I am fascinated by the fields of 
-    medicine - especially brain research - and cybersecurity. As a Machine Learning Engineer with 
-    two years of experience and a dual degree in Engineering and Computer Science, I thrive at the 
-    intersection of innovation and real-world problem-solving.`,
+    `Passionate about building impactful machine learning models, I am
+    fascinated by the fields of medicine and electricity. As a Research
+    Scientist with 3+ years of experience and a dual degree in Applied
+    Mathematics and Engineering, I thrive at the intersection of innovation and
+    real-world problem-solving.`,
   skills: ["Python", "scikit-learn", "PyTorch", "MLflow", "R", "SQL"],
   projects: [
     {

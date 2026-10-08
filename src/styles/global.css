@@ -1,8 +1,17 @@
+@import "@fontsource-variable/inter";
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+:root {
+  --accent-color: var(--accent-light);
+}
+
+:root.dark {
+  --accent-color: var(--accent-dark);
+}
+
 body {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Inter Variable', sans-serif;
   @apply bg-white dark:bg-gray-900 transition-colors duration-300;
 }
