@@ -97,7 +97,7 @@ export const siteConfig = {
     {
       company: "Fraunhofer Heinrich-Hertz-Institute, Berlin",
       title: "Data Scientist",
-      dateRange: "March 2025 - November 2025",
+      dateRange: "March 2025 - February 2026",
       bullets: [
         "Led the development of the ML pipeline for EEG analysis, team of 5",
         "Maintained high code quality and high standards of software development",
