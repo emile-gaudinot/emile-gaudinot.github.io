@@ -17,7 +17,7 @@ export const siteConfig = {
     Scientist with 3+ years of experience and a dual degree in Applied
     Mathematics and Engineering, I thrive at the intersection of innovation and
     real-world problem-solving.`,
-  skills: ["Python", "scikit-learn", "PyTorch", "MLflow", "R", "SQL"],
+  skills: ["Train Models", "Write Articles", "Build Apps", "AWS", "RL", "GNN"],
   projects: [
     {
       name: "Deep Learning for Medical Image Processing",
@@ -97,7 +97,7 @@ export const siteConfig = {
     {
       company: "Fraunhofer Heinrich-Hertz-Institute, Berlin",
       title: "Data Scientist",
-      dateRange: "March 2025 - November 2025",
+      dateRange: "March 2025 - February 2026",
       bullets: [
         "Led the development of the ML pipeline for EEG analysis, team of 5",
         "Maintained high code quality and high standards of software development",
