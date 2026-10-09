@@ -17,7 +17,15 @@ export const siteConfig = {
     Scientist with 3+ years of experience and a dual degree in Applied
     Mathematics and Engineering, I thrive at the intersection of innovation and
     real-world problem-solving.`,
-  skills: ["Train Models", "Write Articles", "Build Apps", "AWS", "RL", "GNN"],
+  skills: [
+    { name: "Train Models", category: "activity" },
+    { name: "Write Articles", category: "activity" },
+    { name: "Build Apps", category: "activity" },
+    { name: "AWS", category: "cloud" },
+    { name: "GCP", category: "cloud" },
+    { name: "RL", category: "ml" },
+    { name: "GNN", category: "ml" },
+  ],
   projects: [
     {
       name: "Deep Learning for Medical Image Processing",
